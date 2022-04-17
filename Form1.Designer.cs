@@ -68,10 +68,9 @@
             this.btnMultiply.AutoSize = true;
             this.btnMultiply.Location = new System.Drawing.Point(109, 29);
             this.btnMultiply.Name = "btnMultiply";
-            this.btnMultiply.Size = new System.Drawing.Size(29, 17);
+            this.btnMultiply.Size = new System.Drawing.Size(30, 17);
             this.btnMultiply.TabIndex = 2;
-            this.btnMultiply.TabStop = true;
-            this.btnMultiply.Text = "*";
+            this.btnMultiply.Text = "x";
             this.btnMultiply.UseVisualStyleBackColor = true;
             // 
             // btnDivide
@@ -141,7 +140,7 @@
             // 
             this.btnMath.Location = new System.Drawing.Point(195, 9);
             this.btnMath.Name = "btnMath";
-            this.btnMath.Size = new System.Drawing.Size(75, 137);
+            this.btnMath.Size = new System.Drawing.Size(115, 137);
             this.btnMath.TabIndex = 10;
             this.btnMath.Text = "计算";
             this.btnMath.UseVisualStyleBackColor = true;
@@ -151,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 158);
+            this.ClientSize = new System.Drawing.Size(322, 158);
             this.Controls.Add(this.btnMath);
             this.Controls.Add(this.btnWhat);
             this.Controls.Add(this.label3);
@@ -164,7 +163,7 @@
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnPlus);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "简易计算机（第十章的第三实作题）";
             this.ResumeLayout(false);
             this.PerformLayout();
 
